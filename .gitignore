@@ -1,4 +1,6 @@
 #IDE
 .vscode
 
+#project
 node_modules
+dist

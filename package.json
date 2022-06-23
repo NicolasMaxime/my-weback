@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:prod": "npx serve dist",
+    "build:prod": "node_modules/.bin/wp --mode production"
   },
   "keywords": [],
   "author": "",
